@@ -47,7 +47,7 @@ public class Main {
                 if(move % 2 != 0){
                     grid[numberX - 1][numberY - 1] = 'X';
                 } else {
-                    grid[numberX - 1][numberY - 1] = '0';
+                    grid[numberX - 1][numberY - 1] = 'O';
                 }
                 viewGrid(grid);
                 move++;
